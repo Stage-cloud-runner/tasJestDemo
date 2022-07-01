@@ -2,7 +2,7 @@
 framework: jest
 preRun:
   command:
-    - npm ci         
+    - npm i         
 postMerge:
   pattern: 
     - "./src/*.test.js"
